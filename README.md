@@ -45,13 +45,13 @@ ORDER BY : 정렬시 사용하는 키워드
 
 #### EMP 테이블의 제약조건
 
-<img src="/images/EMP 테이블의 제약조건.png" width="400px" height="300px">
+<img src="/images/EMP 테이블의 제약조건.png" width="668px" height="65px">
 
 #### 기본 키(PK)가 EMPNO이며, 외래 키가 DEPTINO이다.
 
 #### EMP 테이블의 외래 키인 DEPTINO는 DEPT 테이블의 기본 키이다.
 
-<img src="/images/DEPT 테이블의 기본 키.png" width="668px" height="65px">
+<img src="/images/DEPT 테이블의 기본 키.png" width="250px" height="407px">
 
 #### SCOTT는 계정 이름이며, EMP, DEPT는 테이블 이름
 
