@@ -51,7 +51,7 @@ ORDER BY : 정렬시 사용하는 키워드
 
 #### EMP 테이블의 외래 키인 DEPTINO는 DEPT 테이블의 기본 키이다.
 
-<img src="/images/DEPT 테이블의 기본 키.png" width="250px" height="407px">
+<img src="/images/DEPT 테이블의 기본 키.png" width="668px" height="65px">
 
 #### SCOTT는 계정 이름이며, EMP, DEPT는 테이블 이름
 
@@ -71,12 +71,16 @@ ORDER BY : 정렬시 사용하는 키워드
 
 #### 테이블 전체를 보고 싶을 때는 FULL SCAN(*)표시를 통해 볼 수 있음
 
-> SELECT * FROM EMP;
+```sql
+SELECT * FROM EMP;
+```
 
 #### 테이블 전체의 레코드 수를 보기 위해서는 COUNT() 함수를 사용하여 볼 수 있음
 
-> SELECT COUNT(*) FROM EMP; <BR/>
+```sql
+SELECT COUNT(*) FROM EMP;
 -- 14
+```
 
 #### 그러나, EMP처럼 소수의 데이터가 아니라 대량의 데이터가 있는 테이블을 다뤄야 할 경우, 이는 비효울 적이다. 더 효율적으로 계산하려면 테이블의 PK의 수를 조회하면 된다.
 
