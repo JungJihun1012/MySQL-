@@ -129,7 +129,6 @@ ON E.DEPARTMENT_ID D.DEPARTMENT;
 -- 이름(FIRST_NAME 및 LAST_NAME), 부서 ID
 -- (DEPARTMENT_ID) 및 해당 부서의 이름 (DEPARTMENT_NAME). INNER JOIN은 두 테이블 간에 일치하는 행을 가져오는 데 사용 됨.
 
--- NULL인 아이들도 가져오고 싶음.
 -- OUTER JOIN을 쓴다.
 -- OUTER JOIN 3가지 있다.
 -- LEFT OUTER JOIN, RIGHT OUTER JOIN, FULL OUTER JOIN
