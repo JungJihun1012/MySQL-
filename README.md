@@ -1,5 +1,5 @@
 # Oracle DB SQL 기초문법.
-> version : Oracle Datavbase 11.2.0
+> version : Oracle Database 11.2.0
 
 ## SQL에서 SELECT 문장은 크게 6개의 절로 구성
 
